@@ -203,20 +203,18 @@ footer p
     padding-top: 50px;
 }
 
-@media (max-width: 340px) {
-    body {
-        border: solid 3px red;
+    @media (max-width: 500px) {
+      
+       
+        .jumbotron h1 {
+            font-size: 42px;
+            margin-bottom: 3%;
+        }
+    
+    .jumbotron p 
+    {
+        color: #FFFFFF;
+        margin-bottom: 5%;
+        font-size: 15px;
     }
-   
-    .jumbotron h1 {
-        font-size: 40px;
-        margin-bottom: 3%;
-    }
-
-.jumbotron p 
-{
-    color: #FFFFFF;
-    margin-bottom: 5%;
-    font-size: 14px;
-}
-    }
+        }
