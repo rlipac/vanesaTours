@@ -1,14 +1,9 @@
-(function ($) {
-    'use strict';
+$(document).ready(function () {
 
-	jQuery(window).load(function(){
-
-		jQuery('.masonry').masonry({
-			columnWidth: '.grid-sizer',
-			gutter: '.gutter-sizer',
-			itemSelector: '.item'
-		});
-
+	jQuery('.masonry').masonry({
+		columnWidth: '.grid-sizer',
+		gutter: '.gutter-sizer',
+		itemSelector: '.item'
 	});
+});
 
-}(jQuery));
