@@ -239,14 +239,14 @@ footer p
       
        
         .jumbotron h1 {
-            font-size: 46px;
-            margin-bottom: 3%;
+            font-size: 40px;
+            margin-bottom: 2%;
         }
     
     .jumbotron p 
     {
         color: #FFFFFF;
-        margin-bottom: 5%;
+        margin-bottom: 3%;
         font-size: 17px;
     }
  }
