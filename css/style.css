@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 1.1em;
 }
 
+
 .features,
 .blog,
 .gallery,
@@ -177,6 +178,37 @@ header .container-fluid
 }
 
 /*------------------------------------*\
+	MY GALERY CON CSS-GRID
+\*------------------------------------*/
+.my-galery {
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.item {
+    border-radius: 5px;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.level-1 {
+    grid-row-end: span 1;
+}
+.level-2 {
+    grid-row-end: span 1;
+}
+.level-3 {
+    grid-row-end: span 3;
+}
+
+/*------------------------------------*\
 	FOOTER
 \*------------------------------------*/
 
@@ -207,7 +239,7 @@ footer p
       
        
         .jumbotron h1 {
-            font-size: 42px;
+            font-size: 46px;
             margin-bottom: 3%;
         }
     
@@ -215,6 +247,6 @@ footer p
     {
         color: #FFFFFF;
         margin-bottom: 5%;
-        font-size: 18px;
+        font-size: 17px;
     }
  }
