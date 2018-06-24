@@ -267,7 +267,7 @@ footer p
     .my-galery {
    
         display: grid;
-        grid-template-columns: repeat(auto-fill, 350px); /* auto fill rellena espacios vacios y  hace responsive */
+        grid-template-columns: repeat(auto-fill, 340px); /* auto fill rellena espacios vacios y  hace responsive */
         grid-gap: 5px;
         justify-content: center;
     }
@@ -275,7 +275,7 @@ footer p
     .losgos-lite {
         display: flex;
         flex-direction: column;
-        min-width: 340px;
+        min-width: 300px;
     }
 
 }
