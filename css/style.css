@@ -207,6 +207,30 @@ header .container-fluid
 .level-3 {
     grid-row-end: span 3;
 }
+.my-galery-logo {
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 170px); /* auto fill rellena espacios vacios y  hace responsive */
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+
+
+.item-logo img {
+    max-width: 100%;
+}
+
+.level-logo-1 {
+    grid-row-end: span 1;
+}
+.level-logo-2 {
+    grid-row-end: span 1;
+}
+.level-logo-3 {
+    grid-row-end: span 3;
+}
+
 
 /*------------------------------------*\
 	FOOTER
@@ -260,6 +284,18 @@ footer p
         grid-gap: 5px;
         justify-content: center;
     }
+    .my-galery-logo {
+   
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px); /* auto fill rellena espacios vacios y  hace responsive */
+        grid-gap: 5px;
+        justify-content: center;
+    }
+ 
+.item-logo img {
+    min-width: 290px;
+}
+    
 
 }
 
